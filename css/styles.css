@@ -1,0 +1,1561 @@
+/* styles.css
+   Project:
+   Author:
+   Date:
+
+   Helpful links:
+   	Web colors:
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+*/
+
+* {
+  box-sizing: border-box;
+  /*height: 5300px;*/
+  /*background-color: white;*/
+}
+
+
+
+body {
+  /*background-color: white;*/
+  height: auto;
+}
+
+
+.header {
+  /*background-image: url("../img/clothes.jpg");*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: fixed;
+
+}
+
+.header img {
+  margin: auto;
+  width: 100%;
+
+}
+
+.container {
+  position: absolute;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.storywrap {
+  flex-direction: column;
+  position: relative;
+  display: flex;
+  height: auto;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.storywrap h3 {
+  max-width: 50%;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  padding: 3%;
+  color: white;
+  background-color: rgba(0,0,0,0.65);
+  font-size: 18px;
+  display: block;
+  font-family: georgia, "times new roman", times, serif;
+  line-height: 1.80;
+  -webkit-font-smoothing: antialiased;
+}
+
+.storywrap_title {
+  background-color: rgba(0,0,0,0.65);
+  flex-direction: column;
+  position: relative;
+  display: flex;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 15%;
+  left: 0;
+  right: 0;
+  width: 55%;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+
+}
+
+#byline {
+  text-decoration: overline;
+  margin-top: 5%;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+}
+
+.storywrap_title h1 {
+  text-align: center;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3%;
+  color: white;
+  font-size: 30px;
+  display: block;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+}
+
+.storywrap_title h2{
+  margin-top: -5%;
+  text-align: center;
+  padding: 1%;
+  color: white;
+  font-size: 25px;
+  display: block;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.story-body-1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: white;
+}
+
+#titletext {
+  font-size: 21px;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  color: #2a2a2a;
+  text-align: center;
+  margin-top: 5%;
+  line-height: 2.00em;
+}
+
+.dropcap {
+  float: left;
+  display: block;
+  position: relative;
+  font-family: georgia, "times new roman", times, serif;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 1.75em;
+  height: 1.58em;
+  width: 1.58em;
+  overflow: hidden;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  margin: 2% 3% 0 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.story-body-1 p.paragraph {
+  color: black;
+  max-width: 60%;
+  margin-top: 2%;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  font-size: 18px;
+  font-family: georgia, "times new roman", times, serif;
+  line-height: 1.80;
+
+}
+
+.story-body-1 p {
+  color: black;
+  max-width: 60%;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  font-size: 18px;
+  font-family: georgia, "times new roman", times, serif;
+  line-height: 1.80;
+
+}
+
+.graph-story-body-1 {
+  max-width: 60%;
+  height: auto;
+  display: flex;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.graph-story-body-1 img {
+  width: 100%
+}
+
+.graph2-story-body-1 {
+  max-width: 70%;
+  height: auto;
+  display: flex;
+  margin-top: 2em;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.graph2-story-body-1 img {
+  width: 100%
+}
+
+
+#instruction  {
+  width: 77%;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  color: #2a2a2a;
+  margin: 0 auto;
+  margin-top: 2em;
+  line-height: 1.80;
+}
+
+#instructionfibre {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 13px;
+  font-weight: 200;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  color: #2a2a2a;
+  margin: 0 auto;
+  margin-top: 2em;
+  line-height: 1.80;}
+
+
+#instructionfibre
+  {width: 60%;
+    border: solid 1px #5a3ec8;
+    border-radius: 8px;
+    padding: 4%;
+    font-weight: 200;
+    font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+    /* color: #2a2a2a; */
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 3%;
+    line-height: 1.80;
+}
+
+
+/*FLIPBOARDCARD*/
+.interactive1-story-body-1{
+  position: relative;
+  padding: 6%;
+  height: auto;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  justify-content: space-around;
+
+}
+
+.card {
+  width: 26%;
+  height: 275px;
+  position: relative;
+  float: left;
+  margin: 2%;
+  margin: 0;
+  margin-left: 5%;
+  margin-right: 0;
+  margin-bottom: 3%;
+
+}
+
+.pic {
+  height: auto;
+  width: 100%;
+  position: absolute;
+}
+
+.pic img {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  width: 100%;
+  height: 99%;
+  background-color: #ccc;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  display: none;
+}
+
+.caption h1 {
+  font-size: 21px;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  line-height: 1.80;
+  color: white;
+  text-align: center;
+
+}
+
+.caption p.captionp {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 17px;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  line-height: 2.00;
+  color: white;
+  background-color: #ccc;
+
+}
+
+
+/* INTERACTIVE 2 CHAPTER 2 */
+
+.interactive2-story-body-1{
+  position: relative;
+  height: auto;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  justify-content: space-around;
+  background-color: white;
+}
+.containerchoices {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  max-width: 100%;
+}
+
+  #choices {
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+  #target {
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+#choicesinside {
+  flex-direction: row;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+
+#targetinside {
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+  #button {
+    width: 100%;
+    overflow: hidden;
+    transition-duration: 0.4s;
+    overflow: hidden;
+  }
+
+  #buttontext{
+    width: 145px;
+    height: 34px;
+    font-size: 13px;
+    padding: 5 8px;
+    border: solid 1px rgb(173,172,185);
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.08);
+    font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+    color: black;
+    text-align: center;
+    border: solid 1px rgb(173,172,185);
+    border-radius: 4px;
+    padding: 5 8px;
+    margin-bottom: 4%;
+  }
+
+  #buttontext:hover {
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #ccc;
+  }
+
+.options {
+  width: 210px;
+  height: 78px;
+  margin: 0 auto;
+  margin-bottom: 3%;
+  background-color: rgba(141, 140, 152,.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#optiontext {
+  font-size: 16px;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  text-align: center;
+  background-color: transparent;
+  margin-top: 12%;
+}
+
+
+.rank:after {
+  margin-top: 5px;
+  margin-left: 5px;
+  content: attr(data-id);
+  font-family: 'Benton Gothic Bold', Arial, sans-serif;
+  font-size: 24px;
+  background: #fff;
+  border-radius: 20px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  display: block;
+  text-align: center;
+  color: #5a3ec8;
+  position: absolute;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+.options2 {
+  width: 210px;
+  height: 78px;
+  margin: 0 auto;
+  margin-bottom: 3%;
+  background-color: rgba(141, 140, 152,.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.options2 p {
+  font-size: 16px;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  text-align: center;
+  background-color: transparent;
+  margin-top: 12%;
+}
+
+  .options2 h2 {
+  font-weight: lighter;
+  margin-top: 5px;
+  margin-left: 5px;
+  content: attr(data-id);
+  font-family: 'Benton Gothic Bold', Arial, sans-serif;
+  font-size: 24px;
+  background: #fff;
+  border-radius: 20px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  display: block;
+  text-align: center;
+  color: #5a3ec8;
+  position: absolute;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+  }
+
+
+/* INTERACTIVE MSI SCORE CHARTS */
+
+.interactive3-story-body-1{
+  position: relative;
+  height: auto;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.containerbarcharts {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  max-width: 100%;
+}
+
+.button {
+  padding: 3%;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 78%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+#buttontitle {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  color: black;
+  text-align: center;
+  padding: 3%;
+}
+
+
+.showme {
+  display: block;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.showme img {
+  display: block;
+  width: 65%;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pick {
+  display: flex;
+  flex-direction: row;
+  width: -webkit-fill-available;
+  border: solid 1px rgb(173,172,185);
+  /*border: 1px solid #231f20;*/
+  border-radius: 4px;
+  cursor: pointer;
+  flex-direction: row;
+  margin: 0 auto;
+  cursor: pointer;
+  width: 128px;
+  height: 60px;
+  margin: 0 auto;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.08);
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 13px 5px 10px 0px;
+}
+
+.pick:hover{
+  background-color: #ccc;
+  border: solid 1px black;
+}
+
+.pick p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  font-size: 11px;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+
+/* BAR CHART INTERACTIVE */
+
+.interactive-story-body-3 {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+#charttitle {
+  font-size: 18px;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  color: black;
+  margin-left: 20%;
+  margin-top: 3%;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.containerbar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 2%;
+  left: 20%;
+  right: 0;
+  width: 100%;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.fabriccontainer {
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.fabric plant {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 46px;
+  margin: 0 auto;
+  left: -19%;
+  right: 0;
+  background-color: red;
+}
+
+.string {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: auto;
+  background-color: white;
+  width: 15%;
+
+}
+
+
+.bar {
+  width: 28px;
+  height: 55px;
+  background: #ccc;
+  float: left;
+  margin: 5px;
+  border: 1px solid grey;
+
+}
+
+
+#tag1 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 49px;
+  display: none;
+  font-size: 0.8em;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  color: black;
+  padding: 1%;
+  text-align: center;
+}
+
+#tag2 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 49px;
+  display: none;
+  font-size: 0.8em;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  color: black;
+  padding: 1%;
+  text-align: center;
+
+}
+
+#tag3 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 49px;
+  display: none;
+  font-size: 0.8em;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  color: black;
+  padding: 1%;
+  text-align: center;
+
+}
+
+#tag4 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 49px;
+  display: none;
+  font-size: 0.8em;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  color: black;
+  padding: 1%;
+  text-align: center;
+
+}
+
+#tag5 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 49px;
+  display: none;
+  font-size: 0.8em;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  color: black;
+  padding: 1%;
+  text-align: center;
+
+}
+
+#tag6 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 49px;
+  display: none;
+  font-size: 0.8em;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  color: black;
+  padding: 1%;
+  text-align: center;
+}
+
+.scrollvalue {
+   position: relative;
+   background-color: lavender;
+   padding: 10px;
+   width: 200px;
+   height: 100px;
+   position: fixed;
+   bottom: 0px;
+   left: 30px;
+   font-size: 24px;
+   font-weight: bolder;
+   color: black;
+}
+
+#lastdiv {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: auto;
+  justify-content: space-around;
+  box-sizing: border-box;
+  background-color: #ccc;
+  position: relative;
+  margin-top: 15%;
+  font-size: 15px;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  text-align: center;
+  color: white;
+  line-height: 1.80;
+
+}
+
+
+
+
+.cont {
+  max-width: 70%;
+  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: none;
+}
+
+.xlab {
+  margin-bottom: 10%;
+  font: 10px sans-serif;
+  color: black;
+ 
+}
+
+.labels {
+  font-family: "Avenir", sans-serif;
+  font-size: 12px;
+}
+
+.labelsy {
+  font-family: "Avenir", sans-serif;
+  font-size: 12px;
+}
+
+select option {
+  font-family: "Avenir", sans-serif;
+  font-size: 12px;
+}
+
+#drop {
+  height: auto;
+}
+
+.selector {
+  border: 0.4px lightgrey;
+  width: 20%;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.selector.change:hover {
+    cursor: pointer;
+    background-color: #F89900;
+}
+
+.tooltip {
+  position: absolute;
+  width: 120px;
+  height: auto;
+  padding: 8px;
+  background-color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 909px) {
+
+  .caption p.captionp {
+    text-align: center;
+    font-size: 13px;
+    font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+    line-height: 1.80;
+    color: white;
+    background-color: #ccc;
+  }
+
+  #caption2 h1 {
+    font-size: 17px;
+
+  }
+
+  #sport  {
+    font-size: 20px;
+
+  }
+
+  .button {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 4%;
+  }
+
+  .pick {
+      display: flex;
+      flex-direction: row;
+      width: -webkit-fill-available;
+      border: solid 1px rgb(173,172,185);
+      border: 1px solid #231f20;
+      border-radius: 4px;
+      cursor: pointer;
+      flex-direction: row;
+      margin: 0 auto;
+      cursor: pointer;
+      width: 128px;
+      height: 60px;
+      margin: 1%;
+      box-shadow: inset 0 1px 2px rgba(0,0,0,0.08);
+      border-radius: 8px;
+      overflow: hidden;
+      padding: 13px 5px 10px 0px;
+
+  }
+
+  .showme img {
+    display: block;
+    width: 84%;
+  }
+
+  #charttitle{
+    width: 90%;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+    color: #2a2a2a;
+    margin: 0 auto;
+    margin-top: 2em;
+    line-height: 1.80;
+  }
+
+  #instruction {
+    margin-top: -10%;
+    margin-bottom: 5%;
+    width: 90%;
+  }
+
+  .containerbar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    left: 6%;
+    width: 100%;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 750px) {
+
+  .header {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: auto;
+    position: fixed;
+  }
+
+  .header img {
+      margin: auto;
+      height: 100%;
+      position: fixed;
+      width: auto;
+  }
+
+  .storywrap p {
+    max-width: 75%;
+  }
+
+
+  #titletext {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 8%;
+    line-height: 1.8em;
+  }
+
+  .story-body-1 p.paragraph {
+    max-width: 78%;
+    margin-top: 2%;
+    margin: 0 auto;
+  }
+
+  .story-body-1 p {
+    max-width: 78%;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+
+  .card {
+    margin-bottom: 2%;
+    width: 34%;
+    height: 212px;
+    margin-left: 10%;
+  }
+
+  .caption {
+    height: 100%;
+  }
+
+  .captionp h1 {
+    font-size: 15px;
+    font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+    line-height: 1.80;
+    color: white;
+    text-align: center;
+  }
+
+  .caption p.captionp {
+    font-size: 14px;
+    line-height: 1.80;
+  }
+
+  .showme img {
+    width: 100%;
+    padding: 3%;
+  }
+
+  #charttitle {
+    font-size: 18px;
+    font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+    color: black;
+    margin-left: 12%;
+    margin-top: 3%;
+    width: 78%;
+    margin-top: 3%;
+    margin-bottom: 6%;
+  }
+
+  .graph-story-body-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    flex-direction: column;
+}
+
+  .graph-story-body-1 img {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: -8%;
+  }
+
+  #button {
+    width: 100%;
+    overflow: hidden;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    margin-bottom: 7%;
+}
+
+#instruction {
+    width: 95%;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+    color: #2a2a2a;
+    margin: 0 auto;
+    margin-top: 2em;
+    line-height: 1.80;
+    margin-bottom: 5%;
+}
+
+#charttitle {
+  width: 95%;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  color: #2a2a2a;
+  margin: 0 auto;
+  margin-top: 2em;
+  line-height: 1.80;
+  margin-bottom: 2%;
+
+}
+
+.graph2-story-body-1 {
+    max-width: 93%;
+
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 90%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.pick {
+    display: flex;
+    flex-direction: row;
+    width: -webkit-fill-available;
+    border: solid 1px rgb(173,172,185);
+    border: 1px solid #231f20;
+    border-radius: 4px;
+    cursor: pointer;
+    flex-direction: row;
+    margin: 0 auto;
+    cursor: pointer;
+    width: 128px;
+    height: 60px;
+    margin: 1%;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.08);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 13px 5px 10px 0px;
+
+}
+
+#optiontext {
+  font-size: 14px;
+}
+
+.options2 p {
+  padding: 4 10px;
+  font-size: 14px;
+  margin-top: 12%;
+}
+
+.options2 h2 {
+    font-weight: lighter;
+    margin-top: 5px;
+    margin-left: 3px;
+    content: attr(data-id);
+    font-family: 'Benton Gothic Bold', Arial, sans-serif;
+    font-size: 19px;
+    background: #fff;
+    border-radius: 20px;
+    height: 26px;
+    width: 26px;
+    line-height: 30px;
+    vertical-align: middle;
+    display: block;
+    text-align: center;
+    color: #5a3ec8;
+    position: absolute;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+.rank:after {
+  font-weight: lighter;
+  margin-top: 5px;
+  margin-left: 3px;
+  content: attr(data-id);
+  font-family: 'Benton Gothic Bold', Arial, sans-serif;
+  font-size: 19px;
+  background: #fff;
+  border-radius: 20px;
+  height: 26px;
+  width: 26px;
+  line-height: 30px;
+  vertical-align: middle;
+  display: block;
+  text-align: center;
+  color: #5a3ec8;
+  position: absolute;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+
+}
+
+
+  }
+
+/*second media query for mobile*/
+
+@media only screen and (max-width: 592px) {
+
+  .header {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: auto;
+    position: fixed;
+    background-color: white;
+  }
+
+  .header img {
+    margin: auto;
+    height: 100%;
+    position: fixed;
+    width: auto;
+
+  }
+
+  .storywrap_title{
+    width: 70%;
+    margin-top: 50%;
+  }
+
+.storywrap_title h1{
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+    padding: 3%;
+    color: white;
+    font-size: 24px;
+    display: block;
+    font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  }
+
+  .storywrap_title h2 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    display: block;
+    font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+#byline {
+  font-size: 17px;
+}
+
+ #h3title {
+    max-width: 100%;
+    margin-top: 138%;
+    margin-bottom: 20%;
+    padding: 3%;
+    color: white;
+    font-size: 18px;
+    display: block;
+    line-height: 1.80;
+    -webkit-font-smoothing: antialiased;
+}
+
+  #h3title h3 {
+    max-width: 80%;
+    margin-top: 138%;
+    margin-bottom: 20%;
+    padding: 3%;
+    color: white;
+    font-size: 18px;
+    display: block;
+    line-height: 1.80;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+  #titletext {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 8%;
+    line-height: 1.8em;
+    padding: 1%;
+  }
+
+  .story-body-1 p.paragraph {
+    max-width: 83%;
+    margin-top: 2%;
+    margin: 0 auto;
+    font-size: 15px;
+  }
+
+
+  .caption h1 {
+    font-size: 16px;
+    font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+    line-height: 1.80;
+    color: white;
+    margin-bottom: 1%;
+    text-align: center;
+  }
+
+
+  #instruction {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+    color: #2a2a2a;
+    margin: 0 auto;
+    margin-top: 2em;
+    line-height: 1.80;
+}
+
+  .story-body-1 p {
+    max-width: 83%;
+    margin: 0 auto;
+    margin-top: 5%;
+    font-size: 15px;
+}
+
+.graph2-story-body-1 {
+  max-width: 90%;
+  height: auto;
+  display: flex;
+  margin-top: 2em;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.interactive1-story-body-1 {
+  position: relative;
+  padding: 4%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 4%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.caption p.captionp {
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.50;
+}
+
+.caption h1 {
+    font-size: 14px;
+    font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+    line-height: -2.2;
+    color: white;
+    margin-bottom: -6%;
+    text-align: center;
+  }
+
+#caption2 h1 {
+  font-size: 14px;
+}
+
+#caption5 h1 {
+  font-size: 13px;
+}
+
+.card {
+  width: 34%;
+  height: 212px;
+  margin-left: 10%;
+}
+
+.options {
+  width: 114px;
+  height: 56px;
+  margin: 0 auto;
+  margin-bottom: 3%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#optiontext {
+  font-size: 11px;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  text-align: center;
+  background-color: transparent;
+  margin: 0 auto;
+  margin-top: 17%;
+}
+
+.options2 p {
+  font-size: 11px;
+  font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+  text-align: center;
+  background-color: transparent;
+  margin: 0 auto;
+  margin-top: 17%;
+}
+
+.options2 {
+  width: 114px;
+  height: 56px;
+  margin: 0 auto;
+  margin-bottom: 3%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+.options2 h2 {
+    margin-top: 5px;
+    margin-left: 5px;
+    content: attr(data-id);
+    font-family: 'Benton Gothic Bold', Arial, sans-serif;
+    font-size: 11px;
+    background: #fff;
+    border-radius: 20px;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    vertical-align: middle;
+    display: block;
+    text-align: center;
+    color: #5a3ec8;
+    position: absolute;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+.rank:after {
+    margin-top: 5px;
+    margin-left: 5px;
+    content: attr(data-id);
+    font-family: 'Benton Gothic Bold', Arial, sans-serif;
+    font-size: 11px;
+    background: #fff;
+    border-radius: 20px;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    vertical-align: middle;
+    display: block;
+    text-align: center;
+    color: #5a3ec8;
+    position: absolute;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+#button {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+
+#buttontext {
+    width: 126px;
+    height: 21px;
+    font-size: 12px;
+    padding: 0 8px;
+}
+
+
+  .graph-story-body-1 {
+    max-width: 90%;
+    height: auto;
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pick {
+  cursor: pointer;
+  cursor: pointer;
+  width: 77px;
+  height: 31px;
+  border: 0.5px solid;
+}
+
+.pick p {
+
+    font-size: 6px;
+    text-align: center;
+    margin: auto;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.graph-story-body-1 img {
+    width: 96%;
+}
+
+.containerbar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 2%;
+    left: 5%;
+    right: 0;
+    width: 100%;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.string {
+  width: 20%;
+  font-size: 13px;
+  color: black;
+}
+
+.bar {
+    width: 13px;
+    height: 41px;
+    background: #ccc;
+    float: left;
+    margin: 5px;
+    border: 1px solid grey;
+}
+
+#tag1, #tag2, #tag3, #tag4, #tag5, #tag6 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 37px;
+    display: none;
+    font-size: 0.8em;
+    font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+    color: black;
+    padding: 1%;
+    text-align: center;
+}
+
+#charttitle {
+    font-size: 15px;
+    font-family: "FranklinITCProThin",Helvetica,Arial,sans-serif;
+    color: black;
+    margin-left: 4%;
+    margin-top: 3%;
+    width: 100%;
+    margin-top: 9%;
+    margin-bottom: 5%;
+}
+
+.graph-story-body-1 img {
+    width: 96%;
+    margin-left: 0%;
+}
+
+.interactive1-story-body-1 {
+    position: relative;
+    padding: 0%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10%;
+    left: 0;
+    right: 0;
+    margin-bottom: -10%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#instructionfibre {
+    width: 83%;
+  }
+
+  .pick p {
+    font-size: 5px;
+    text-align: center;
+    margin-top: -7%;
+}
+
+#lastdiv {
+  max-width: 0%;
+  margin: 0 auto;
+  margin-top: 0%;
+  font-size: 0px;
+}
+
+
+
+  }
+
+
+
