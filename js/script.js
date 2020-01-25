@@ -493,7 +493,7 @@ d3.csv(fileName, function(error, data){
 var makeVis = function(effectMap) {
 
 
-  var margin = {top: 30, right: 100, bottom: 100, left: 50},
+  var margin = {top: 100, right: 100, bottom: 100, left: 100},
     w = 600 - margin.left - margin.right,
     h = 500 - margin.top - margin.bottom;
 
